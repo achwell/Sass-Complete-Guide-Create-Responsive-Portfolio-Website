@@ -1,0 +1,17 @@
+@use "variables" as *;
+
+$fontWeights: ("normal": 400, "bold": 500, "extraBold": 600);
+@each $key, $value in $fontWeights {
+  .font-#{$key} {
+    font-weight: #{$value};
+  }
+}
+
+$startLoop: 1;
+$endLoop: 20;
+
+@for $i from $startLoop through $endLoop {
+  .fontSize-#{$i} {
+    font-size: #{$i}px;
+  }
+}

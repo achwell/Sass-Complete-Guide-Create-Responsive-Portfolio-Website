@@ -1,0 +1,12 @@
+{
+  "name": "learnsass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "compile-sass": "sass app.scss app.css --watch --style compressed"
+  },
+  "dependencies": {
+    "sass": "^1.52.1"
+  }
+}

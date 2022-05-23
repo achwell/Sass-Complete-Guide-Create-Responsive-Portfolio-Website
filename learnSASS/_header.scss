@@ -1,0 +1,16 @@
+@use "variables" as *;
+
+$circle: "radius";
+.header {
+  background: $indigo;
+  color: $white;
+  width: 200px;
+  height: 200px;
+  @if $circle == "normal" {
+    border-radius: 10%;
+  } @else if $circle == "radius" {
+    border-radius: 50%;
+  } @else {
+    border-radius: 0;
+  }
+}

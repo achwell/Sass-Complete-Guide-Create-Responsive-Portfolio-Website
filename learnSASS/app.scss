@@ -1,0 +1,35 @@
+@use "variables" as *;
+@use "navbar";
+@use "header";
+@use "function";
+@use "colors";
+@use "loop";
+
+@mixin alert($bg, $radius) {
+  background-color: $bg;
+  border-radius: $radius;
+  color: $white;
+  padding: 15px;
+  font-size: 14px;
+}
+
+//%alert {
+//  padding: 15px;
+//  font-size: 14px;
+//  color: $white;
+//}
+//%alert-radius {
+//  border-radius: 5px;
+//}
+
+.alert-danger {
+  //@extend %alert, %alert-radius;
+  //background-color: $red;
+  @include alert($red, 4px);
+}
+
+.alert-success {
+  //@extend %alert, %alert-radius;
+  //background-color: $green;
+  @include alert($green, 8px);
+}

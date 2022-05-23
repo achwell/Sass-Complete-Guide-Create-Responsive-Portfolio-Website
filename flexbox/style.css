@@ -1,0 +1,31 @@
+.row {
+    background: red;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.column {
+    background: orangered;
+    height: 150px;
+    margin: 20px;
+    flex-basis: 150px;
+}
+
+/*.column:nth-child(1) {*/
+/*    order: 3;*/
+/*}*/
+
+/*.column:nth-child(2) {*/
+/*    order: 2;*/
+/*}*/
+
+/*.column:nth-child(3) {*/
+/*    order: 1;*/
+/*}*/
+
+/*.column:nth-child(4) {*/
+/*    order: 1;*/
+/*}*/

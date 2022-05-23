@@ -1,0 +1,12 @@
+{
+  "name": "sass-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "compile-sass": "sass app.scss app.css --watch --style compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.52.1"
+  }
+}

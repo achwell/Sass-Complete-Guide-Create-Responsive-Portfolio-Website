@@ -28,8 +28,8 @@
         &::after {
           @include position(absolute, null, -1rem, 0.6rem, null);
           content: "";
-          width: 0.8rem;
-          height: 0.8rem;
+          width: .8rem;
+          height: .8rem;
           background: $green-500;
           border-radius: 50%;
           box-shadow: 0.2rem 0.2rem $green-200;

@@ -1,6 +1,4 @@
-@use "sass:math";
 @use "../abstracts" as *;
-
 .container {
   width: 100%;
   max-width: $maxWidth;
@@ -8,6 +6,10 @@
   padding-right: $gutter;
   margin-left: auto;
   margin-right: auto;
+  @include responsive(sm) {
+    padding-left: $gutter + 1rem; // 1.5rem + 1rem = 2.5rem;
+    padding-right: $gutter + 1rem;
+  }
 }
 
 .row {

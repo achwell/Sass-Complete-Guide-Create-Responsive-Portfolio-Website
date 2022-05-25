@@ -8,7 +8,7 @@ toggle.addEventListener('click', () => {
 
 // name typewrite effect
 const nameElement = document.querySelector('.header__data__contents__heading');
-const nameText = "muhammad asif"
+const nameText = "Axel Wulff Sæther"
 let start = 0;
 
 const typeWrite = () => {

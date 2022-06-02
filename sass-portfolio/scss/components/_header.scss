@@ -48,7 +48,6 @@
         background: linear-gradient(45deg, $black 50%, $green-500 50%);
         color: transparent;
         background-clip: text;
-        -webkit-background-clip: text;
         text-transform: capitalize;
         @include responsive(md) {
           font-size: 4rem;
